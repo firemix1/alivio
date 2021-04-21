@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0 auto;
+    font-family: 'Lato', serif;
+    font-size: 10px;
+}
+
+.header {
+    height: 8.5em;
+    display: flex;
+    width: 120em;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.header-items {
+    font-size: 1.9em;
+    display: flex;
+    justify-content: space-between;
+    width: 25em;
+    margin-right: 1em;
+}
+
+.header-items a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-buttons {
+    font-size: 1.9em;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 15em;
+    height: 51px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-button {
+    padding: 0.6em 1.8em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header-button:last-child {
+    background: #01996D;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.main-img {
+    width: 100%;
+    border-top: 1px solid #D6D6D6;
+    position: relative;
+}
+
+.main-content {
+    position: absolute;
+    top: 24em;
+    left: 24em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35em;
+}
+
+.main-content-title {
+    font-family: Georgia, serif;
+    font-size: 5.5em;
+    width: 7em;
+    color: #01996D;
+}
+
+.main-content-descr {
+    margin-top: -2em;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    width: 21em;
+}
+
+.main-content-a {
+    background: #01996D;
+    padding: 1em;
+    border-radius: 4px;
+    font-size: 2em;
+    color: white;
+    width: 9em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.steps {
+    width: 138em;
+    margin: 16em auto 0;
+}
+
+.steps-top {
+    height: 17em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps-top-l {
+    width: 58em;
+}
+
+.steps-top-r {
+    width: 67em;
+    display: flex;
+    align-items: flex-end;
+}
+
+.steps-top-l span {
+    font-size: 2.5em;
+    flex-grow: 2;
+}
+
+.steps-top-l h2 {
+    font-family: Georgia, serif;
+    font-size: 5em;
+    color: #01996D;
+    line-height: 1.5em;
+    flex: auto;
+}
+
+.steps-top-r p {
+    font-size: 2.1em;
+    line-height: 1.5em;
+}
+
+.steps-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps-main-card {
+    width: 38em;
+    position: relative;
+}
+
+.steps-main-card span {
+    color: #01996D;
+    opacity: 20%;
+    font-size: 15em;
+    font-family: Georgia, serif;
+    position: absolute;
+    top: -0.75em;
+    left: 0.1em;
+}
+
+.steps-main-card h2 {
+    font-size: 3em;
+    font-weight: 700;
+    font-family: Georgia, serif;
+    position: relative;
+}
+
+.steps-main-card p {
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+    font-size: 2em;
+}
+
+.steps-main-card img {
+    border-radius: 12px;
+}
+
+.steps-main-card:nth-child(1) {
+    margin-top: 18em;
+}
+
+.steps-main-card:nth-child(2) {
+    margin-top: 47em;
+}
+
+.steps-main-card:nth-child(3) {
+    margin-top: 24em;
+}
+
+.steps-main-card:nth-child(even) h2 {
+    text-align: end;
+}
+
+.steps-main-card:nth-child(odd) h2 {
+    text-align: center;
+}
+
+.story {
+    margin-top: 5em;
+    background: #245852;
+    height: 92em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.story-cont {
+    width: 150em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-info {
+    width: 58em;
+    height: 37em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.story-info h2 {
+    color: white;
+    font-size: 5em;
+    line-height: 1.5em;
+    font-family: Georgia, serif;
+
+}
+
+.story-info p {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.story-info a {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    text-decoration: none;
+    background: #01996D;
+    border-radius: 4px;
+    padding: 0;
+    width: 12em;
+    height: 3.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-movie iframe {
+    width: 85em;
+    height: 47em;
+    border-radius: 16px;
+}
+
+.product {
+    height: 93.5em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-wrap {
+    width: 1370px;
+    margin: 12em auto 17em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.product-l img {
+    height: 57.3em;
+    width: 63.8em;
+    margin-left: 6em;
+    position: relative;
+}
+
+.product-r {
+    width: 58.4em;
+    height: 41em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-r span {
+    display: flex;
+    font-weight: 600;
+    color: #424242;
+    font-size: 2.5em;
+}
+
+.product-r h2 {
+    font-family: Georgia, serif;
+    font-size: 5em;
+    color: #01996D;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+.product-r p {
+    color: #484848;
+    font-weight: 400;
+    font-size: 2em;
+    width: 26em;
+}
+
+.product-r a {
+    background: #01996D;
+    padding: 1em;
+    border-radius: 4px;
+    font-size: 2em;
+    color: white;
+    width: 9em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.product-l-card {
+    width: 29.6em;
+    height: 29.4em;
+    padding: 2.6em 5em;
+    border-radius: 4px;
+    position: absolute;
+    top: 35em;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 1px 10px 3px rgba(165, 165, 165, 0.25);
+}
+
+.product-l-card h2 {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.product-l-card span::before {
+    content: "";
+    width: 11em;
+    height: 1px;
+    background: #000;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4em;
+}
+
+.product-l-card-image {
+    margin: 0.7em auto;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 5.7em;
+    width: 5.7em;
+}
+
+.product-l-card-image img {
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.product-l-card p {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.product-l-card h3 {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 1.7em;
+    margin: 1.5em 0;
+}
+
+.product-l-card ul {
+    margin-left: 1.5em;
+}
+
+.product-l-card ul li {
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    height: 56em;
+    background-color: #245852;
+    padding: 4em 25em 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    width: 5em;
+    text-decoration: none;
+    font-size: 2.3em;
+    font-weight: 400;
+    margin-top: 2.4em;
+    color: white;
+}
